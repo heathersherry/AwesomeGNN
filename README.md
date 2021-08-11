@@ -25,5 +25,7 @@ Design choices:
 > * Closeness centrality: A node is important if it has small shortest path lengths to all other nodes.
 * Node features:
 > * Clustering coefficient: Measures how connected v's neighboring nodes are.
-> * Graphlets: Rooted connected non-isomorphic subgraphs. We use graphlet degree vector to count graphlets rooted at a given node.
-
+> * Graphlets: Rooted connected non-isomorphic subgraphs. We use __graphlet degree vector (GDV)__ to count graphlets rooted at a given node.
+> 
+2. Link level task and features (Goal: predict new links based on existing links, with two formulations: (1) Links missing at random, and (2) )
+3. 
