@@ -6,9 +6,17 @@
 ## Efficiency
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
 2. GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
+3. Performance Adaptive Sampling Strategy Towards Fast and Accurate Graph Neural Networks (KDD 2021) [[Video](https://www.youtube.com/watch?v=uRxF-xLo60o)]
 
-Related reading:
-1. Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
+### Sampling Methods
+Random Sampling
+1. GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
+
+Importance Sampling
+1. Fast-GCN
+2. LADIES
+3. AS-GCN
+4. GCN-BS
 
 ## HGNN
 1. Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
