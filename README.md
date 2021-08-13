@@ -1,31 +1,24 @@
-# GNN
+# GNN Readings
 
-__Lecture 1: Introduction; Machine Learning for Graphs__
-1. Different types of tasks:
-* Node level: node classification
-* Edge level: recommeder system
-* Subgraph level: traffic prediction
-* Graph level: drug discovery, physic simulation
-2. Graph representation: matrix, edge list, adjacency list (Easier to work with if network is large and sparse)
-3. Different types of graphs
+## Tutorials and Lectures
+1. Stanford CS224W: Machine Learning with Graphs [[Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
 
-__Lecture 2: Traditional Methods for ML on Graphs__
+## Efficiency
+1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
+2. GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
 
-Goal: Make predictions for a set of objects
+Related reading:
+1. Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
 
-Design choices:
-* Features: d-dimensional vectors
-* Objects: Nodes, edges, sets of nodes, entire, graphs
-* Objective function: What task are we aiming to solve?
+## HGNN
+1. Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
+> * simpleHGN 
 
-1. Node level task and features (Goal: Characterize the structure and position of a node in the network)
-* Node centrality: 
-> * Eigenvector centrality: A node is important if surrounded by important neighboring nodes.
-> * Betweenness centrality: A node is important if it lies on many shortest paths between other nodes.
-> * Closeness centrality: A node is important if it has small shortest path lengths to all other nodes.
-* Node features:
-> * Clustering coefficient: Measures how connected v's neighboring nodes are.
-> * Graphlets: Rooted connected non-isomorphic subgraphs. We use __graphlet degree vector (GDV)__ to count graphlets rooted at a given node.
-> 
-2. Link level task and features (Goal: predict new links based on existing links, with two formulations: (1) Links missing at random, and (2) )
-3. 
+## Explanability
+1. GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
+2. On Explainability of Graph Neural Networks via Subgraph Explorations [[Paper](https://arxiv.org/pdf/2102.05152.pdf)] 🌟
+> * Shapley value --> taxi sharing
+
+Related reading:
+1. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
+2. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
