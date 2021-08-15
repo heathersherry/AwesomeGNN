@@ -30,3 +30,7 @@ Importance Sampling
 Related reading:
 1. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
 2. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
+
+# Other Related Reading
+## Embedding
+1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
