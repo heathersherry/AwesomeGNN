@@ -45,6 +45,16 @@ Goal: graph representation learning, a way to learn node and graph embeddings fo
 > * decoder: based on node similarity
 > * objective: maximize z_v^Tz_u for node pairs (u,v) that are similar
 * Random walk approaches
-> (1) Run short fixed-length random walks starting from each node on the graph
-> (2) For each node u collect N(u), the multiset of nodes visited on random walks starting from u
-> (3) Optimize embeddings using Stochastic Gradient Descen
+> * (1) Run short fixed-length random walks starting from each node on the graph
+> * (2) For each node u collect N(u), the multiset of nodes visited on random walks starting from u
+> * (3) Optimize embeddings using Stochastic Gradient Descen
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/WX20210815-223519%402x.png" width="400"/>
+* DeepWalk: fixed-length, unbiased random walks starting from each node.
+* Node2vec: Biased 2nd-order Random Walk (DFS+BFS), better used on node classfication than link prediction.
+2. Embedding Entire Graph
+* Approach 1: Embed nodes and sum/avg them 
+* Approach 2: Create super-node that spans the (sub) graph and then embed that node
+* Approach 3: Anonymous Walk Embeddings
+> * Idea 1: Sample the anon. walks and represent the graph as fraction of times each anon walk occurs
+> * Idea 2: Embed anonymous walks, concatenate their embeddings to get a graph embedding
+ 
