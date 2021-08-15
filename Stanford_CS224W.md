@@ -34,3 +34,8 @@ Design choices:
 * Graph Kernels: Measure similarity between two graphs
 > * Graphlet Kernel: graphlet feature, which counts the number of different graphlets in a graph (limitations: the counting is expensive)
 > * Weisfeiler-Lehman Kernel: use neighborhood structure to iteratively enrich node vocabulary. ALgorithm: Color refinement, while the time complexity is linear to the # of egdes
+
+__Lecture 3: Node Embedding___
+
+Goal: Efficient task-independent feature learning for machine learning with graphs
+
