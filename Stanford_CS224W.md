@@ -35,7 +35,16 @@ Design choices:
 > * Graphlet Kernel: graphlet feature, which counts the number of different graphlets in a graph (limitations: the counting is expensive)
 > * Weisfeiler-Lehman Kernel: use neighborhood structure to iteratively enrich node vocabulary. ALgorithm: Color refinement, while the time complexity is linear to the # of egdes
 
-__Lecture 3: Node Embedding___
+__Lecture 3: Node Embedding__
 
-Goal: Efficient task-independent feature learning for machine learning with graphs
+Goal: graph representation learning, a way to learn node and graph embeddings for downstream tasks, without feature engineering.
 
+1. Node embedding
+* Encoder + Decoder Framework (unsupervised/self-supervised way of learning node embeddings, no node label, no node feature, just to preserve the network structure, task independent)
+> * encoder: maps each node to a low-dimensional vector
+> * decoder: based on node similarity
+> * objective: maximize z_v^Tz_u for node pairs (u,v) that are similar
+* Random walk approaches
+> (1) Run short fixed-length random walks starting from each node on the graph
+> (2) For each node u collect N(u), the multiset of nodes visited on random walks starting from u
+> (3) Optimize embeddings using Stochastic Gradient Descen
