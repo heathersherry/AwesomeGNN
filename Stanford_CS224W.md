@@ -66,9 +66,12 @@ __Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings__
 > * PageRank solves r = Mr where r can be viewed as both the principle eigenvector of M and as the stationary distribution of a random walk over the graph
 
 2. PageRank: The solution
+* PageRank solves for r = Gr and can be efficiently computed by power iteration of the stochastic adjacency matrix (G)
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/pagerank.png" width="400"/>
 * Teleprots: solve the dead-ends and spider-traps problem
 > * Spider-traps: With prob. b, follow a link at random, With prob. 1-b, jump to a random page, b = 0.8 or 0.9 in pratice
 > * Dead-ends: Follow random teleport links with total probability 1.0 from dead-ends
-> * 
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/teleports.png" width="400"/>
 
+3. RWR and PPR
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/pagerank_variants.png" width="400"/>
