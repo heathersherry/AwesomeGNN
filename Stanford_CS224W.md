@@ -35,7 +35,7 @@ Design choices:
 > * Graphlet Kernel: graphlet feature, which counts the number of different graphlets in a graph (limitations: the counting is expensive)
 > * Weisfeiler-Lehman Kernel: use neighborhood structure to iteratively enrich node vocabulary. ALgorithm: Color refinement, while the time complexity is linear to the # of egdes
 
-__Lecture 3: Node Embedding__
+__Lecture 3: Node Embeddings__
 
 Goal: graph representation learning, a way to learn node and graph embeddings for downstream tasks, without feature engineering.
 
@@ -58,3 +58,12 @@ Goal: graph representation learning, a way to learn node and graph embeddings fo
 > * Idea 1: Sample the anon. walks and represent the graph as fraction of times each anon walk occurs
 > * Idea 2: Embed anonymous walks, concatenate their embeddings to get a graph embedding
  
+__Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings__
+
+1. PageRank: The "Flow" Model
+> * Measures importance of nodes in a graph using the link structure of the web
+> * Models a random web surfer using the stochastic adjacency matrix M
+> * PageRank solves r = Mr where r can be viewed as both the principle eigenvector of M and as the stationary distribution of a random walk over the graph
+
+2. PageRank: The solution
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNN.png" width="400"/>
