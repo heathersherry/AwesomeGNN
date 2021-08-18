@@ -1,4 +1,4 @@
-__Lecture 1: Introduction; Machine Learning for Graphs__
+### Lecture 1: Introduction; Machine Learning for Graphs
 1. Different types of tasks:
 * Node level: node classification
 * Edge level: recommeder system
@@ -7,7 +7,7 @@ __Lecture 1: Introduction; Machine Learning for Graphs__
 2. Graph representation: matrix, edge list, adjacency list (Easier to work with if network is large and sparse)
 3. Different types of graphs
 
-__Lecture 2: Traditional Methods for ML on Graphs__
+### Lecture 2: Traditional Methods for ML on Graphs
 
 Goal: Make predictions for a set of objects
 
@@ -35,7 +35,7 @@ Design choices:
 > * Graphlet Kernel: graphlet feature, which counts the number of different graphlets in a graph (limitations: the counting is expensive)
 > * Weisfeiler-Lehman Kernel: use neighborhood structure to iteratively enrich node vocabulary. ALgorithm: Color refinement, while the time complexity is linear to the # of egdes
 
-__Lecture 3: Node Embeddings__
+### Lecture 3: Node Embeddings
 
 Goal: graph representation learning, a way to learn node and graph embeddings for downstream tasks, without feature engineering.
 
@@ -58,7 +58,7 @@ Goal: graph representation learning, a way to learn node and graph embeddings fo
 > * Idea 1: Sample the anon. walks and represent the graph as fraction of times each anon walk occurs
 > * Idea 2: Embed anonymous walks, concatenate their embeddings to get a graph embedding
  
-__Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings__
+### Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings
 
 1. PageRank: The "Flow" Model
 > * Measures importance of nodes in a graph using the link structure of the web
@@ -75,3 +75,23 @@ __Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings__
 
 3. RWR and PPR
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/pagerank_variants.png" width="400"/>
+
+### Lecture 5: Message Passing and Node CLassification
+Goal: Semi-supervised node classification
+
+Approach: Collective Classification
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/collectiveclassification.png" width="400"/>
+Three Collective Classification Models:
+
+1. Relational classification
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/relationalclassification.png" width="400"/>
+* Challenges: (1) Convergence is not guaranteed, (2) Model cannot use node feature information
+2. Iterative classification
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/iterativeclassification1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/iterativeclassification2.png" width="400"/>
+* Improvements: (1) Improve over collective classification to handle attribute/feature information, (2) Classify node i based on its features as well as labels of neighbors
+3. Loopy Belief propagation
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/loopypropagation.png" width="400"/>
+* Advantages: Easy to program and parallel, can be apply to any graph model with any form of potentials (e.g., higher order)
+* Challenges: Convergence not guaranteed (especially with many closed loops)
+
+### Lecture 6
