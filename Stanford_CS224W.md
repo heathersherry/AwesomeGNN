@@ -94,4 +94,5 @@ Three Collective Classification Models:
 * Advantages: Easy to program and parallel, can be apply to any graph model with any form of potentials (e.g., higher order)
 * Challenges: Convergence not guaranteed (especially with many closed loops)
 
-### Lecture 6
+### Lecture 6: Graph Neural Network
+
