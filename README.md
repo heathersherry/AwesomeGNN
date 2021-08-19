@@ -37,7 +37,7 @@ Related reading:
 3. Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization (VLDB 2021)
 4. Large Graph Convolutional Network Training with GPU-Oriented Data Communication Architecture (VLDB 2021)
 5. Multi-Modal Transportation Recommendation with Unified Route Representation Learning (VLDB 2021)
-
+6. ICS-GNN: Lightweight Interactive Community Search via Graph Neural Network (VLDB 2021)
 
 # Other Related Reading
 ## Embedding
