@@ -95,4 +95,17 @@ Three Collective Classification Models:
 * Challenges: Convergence not guaranteed (especially with many closed loops)
 
 ### Lecture 6: Graph Neural Network
+1. Basic of Deep Learning
+* Machine learning as optimization (min loss); Gradient vector and Stochastic gradient vector (SGD); epoch, iteration, batch size; back-propagation; MLP.
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/basic_dl.png" width="400"/>
+2. Deep Learning for Graphs
+* Neighborhood aggregation: Average information from neighbors and apply a neural network
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_3.png" width="400"/>
+* Unsupervised learning
+> * No node label available. Use the graph structure as the supervision!
+> * “Similar” nodes have similar embeddings. Node similarity can be based on random walk/Matrix factorization/Node proximity in the graph.
+* Supervised learning
+> * Directly train the model for a supervised task (e.g., node classification)
+> * (1) Define a neighborhood aggregation function; (2) Define a loss function on the embeddings; (3) Train on a set of nodes, i.e., a batch of compute graphs; (4)Generate embeddings for nodes as needed (even for new nodes)!
+3. GCN and GraphSAGE
 
