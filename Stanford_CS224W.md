@@ -108,4 +108,7 @@ Three Collective Classification Models:
 > * Directly train the model for a supervised task (e.g., node classification)
 > * (1) Define a neighborhood aggregation function; (2) Define a loss function on the embeddings; (3) Train on a set of nodes, i.e., a batch of compute graphs; (4)Generate embeddings for nodes as needed (even for new nodes)!
 3. GCN and GraphSAGE
+(Why Prof said byebye before introducing GraphSAGE???😭😭😭)
+
+### Lecture 7
 
