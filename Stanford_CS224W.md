@@ -98,6 +98,7 @@ Three Collective Classification Models:
 1. Basic of Deep Learning
 * Machine learning as optimization (min loss); Gradient vector and Stochastic gradient vector (SGD); epoch, iteration, batch size; back-propagation; MLP.
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/basic_dl.png" width="400"/>
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_4.png" width="400"/>
 2. Deep Learning for Graphs
 * Neighborhood aggregation: Average information from neighbors and apply a neural network
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphdl_3.png" width="400"/>
