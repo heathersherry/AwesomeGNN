@@ -119,7 +119,7 @@ Three Collective Classification Models:
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generalGNN_2.png" width="400"/>
 * Classical GNN Layers:
 > * GCN
-> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GCN1.png" width="400"/><img src="https://github.com/heathersherry/GNN/blob/main/figures/GCN2.png" width="400"/>
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GCN1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GCN2.png" width="400"/>
 > * GraphSAGE
 > <img src="https://github.com/heathersherry/GNN/blob/main/figures/GrageSAGE1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GrageSAGE2.png" width="400"/>
 > * GAT             
