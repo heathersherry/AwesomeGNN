@@ -1,4 +1,4 @@
-### Lecture 1: Introduction; Machine Learning for Graphs
+## Lecture 1: Introduction; Machine Learning for Graphs
 1. Different types of tasks:
 * Node level: node classification
 * Edge level: recommeder system
@@ -7,7 +7,7 @@
 2. Graph representation: matrix, edge list, adjacency list (Easier to work with if network is large and sparse)
 3. Different types of graphs
 
-### Lecture 2: Traditional Methods for ML on Graphs
+## Lecture 2: Traditional Methods for ML on Graphs
 
 Goal: Make predictions for a set of objects
 
@@ -18,24 +18,27 @@ Design choices:
 
 1. Node level task and features (Goal: Characterize the structure and position of a node in the network)
 * Node centrality: 
-> * Eigenvector centrality: A node is important if surrounded by important neighboring nodes.
-> * Betweenness centrality: A node is important if it lies on many shortest paths between other nodes.
-> * Closeness centrality: A node is important if it has small shortest path lengths to all other nodes.
+> * Eigenvector centrality: A node is important if surrounded by important neighboring nodes. <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodecentrality1.png" width="400"/>
+> * Betweenness centrality: A node is important if it lies on many shortest paths between other nodes. <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodecentrality2.png" width="400"/>
+> * Closeness centrality: A node is important if it has small shortest path lengths to all other nodes. <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodecentrality3.png" width="400"/>
 * Node features:
-> * Clustering coefficient: Measures how connected v's neighboring nodes are.
-> * Graphlets: Rooted connected non-isomorphic subgraphs. We use __graphlet degree vector (GDV)__ to count graphlets rooted at a given node.
+> * Clustering coefficient: Measures how connected v's neighboring nodes are. <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodefeature1.png" width="400"/>
+> * Graphlets: Rooted connected non-isomorphic subgraphs. We use __graphlet degree vector (GDV)__ to count graphlets rooted at a given node. <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodefeature2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodefeature3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/nodefeature4.png" width="400"/>
 > 
 2. Link level task and features (Goal: predict new links based on existing links, with two formulations: (1) Links missing at random, and (2) links over time)
 * Link level features
-> * Distance-based feature: Shortest-path distance between two nodes
-> * Local neighborhood overlap: Captures # neighboring nodes shared between two nodes v1 and v2 (limitation: not global view)
-> * Global neighborhood overlap: Katz index, which counts the number of paths of all lengths between a given pair of nodes.
+> * Distance-based feature: Shortest-path distance between two nodes. <img src="https://github.com/heathersherry/GNN/blob/main/figures/linkfeature1.png" width="400"/>
+> * Local neighborhood overlap: Captures # neighboring nodes shared between two nodes v1 and v2 (limitation: not global view). <img src="https://github.com/heathersherry/GNN/blob/main/figures/linkfeature2.png" width="400"/>
+> * Global neighborhood overlap: Katz index, which counts the number of paths of all lengths between a given pair of nodes. <img src="https://github.com/heathersherry/GNN/blob/main/figures/linkfeature3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/linkfeature4.png" width="400"/>
+
 3. Graph level task and features (Goal: We want features that characterize the structure of an entire graph)
 * Graph Kernels: Measure similarity between two graphs
 > * Graphlet Kernel: graphlet feature, which counts the number of different graphlets in a graph (limitations: the counting is expensive)
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature4.png" width="400"/>
 > * Weisfeiler-Lehman Kernel: use neighborhood structure to iteratively enrich node vocabulary. ALgorithm: Color refinement, while the time complexity is linear to the # of egdes
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature8.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/graphfeature9.png" width="400"/> 
 
-### Lecture 3: Node Embeddings
+## Lecture 3: Node Embeddings
 
 Goal: graph representation learning, a way to learn node and graph embeddings for downstream tasks, without feature engineering.
 
@@ -58,7 +61,7 @@ Goal: graph representation learning, a way to learn node and graph embeddings fo
 > * Idea 1: Sample the anon. walks and represent the graph as fraction of times each anon walk occurs
 > * Idea 2: Embed anonymous walks, concatenate their embeddings to get a graph embedding
  
-### Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings
+## Lecture 4: Graph as Matrix: Page Rank, Random Walk, and Embeddings
 
 1. PageRank: The "Flow" Model
 > * Measures importance of nodes in a graph using the link structure of the web
@@ -76,7 +79,7 @@ Goal: graph representation learning, a way to learn node and graph embeddings fo
 3. RWR and PPR
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/pagerank_variants.png" width="400"/>
 
-### Lecture 5: Message Passing and Node CLassification
+## Lecture 5: Message Passing and Node CLassification
 Goal: Semi-supervised node classification
 
 Approach: Collective Classification
@@ -94,7 +97,7 @@ Three Collective Classification Models:
 * Advantages: Easy to program and parallel, can be apply to any graph model with any form of potentials (e.g., higher order)
 * Challenges: Convergence not guaranteed (especially with many closed loops)
 
-### Lecture 6: Graph Neural Networks
+## Lecture 6: Graph Neural Networks
 1. Basic of Deep Learning
 * Machine learning as optimization (min loss); Gradient vector and Stochastic gradient vector (SGD); epoch, iteration, batch size; back-propagation; MLP.
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/basic_dl.png" width="400"/>
@@ -111,7 +114,7 @@ Three Collective Classification Models:
 3. GCN and GraphSAGE
 (Why Prof said byebye before introducing GraphSAGE???😭😭😭 Oh he talked about it in Lecture 7 later 🥰)
 
-### Lecture 7: A General Perspective on GNNs
+## Lecture 7: A General Perspective on GNNs
 1. A General GNN Framework
 * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generalGNN_1.png" width="400"/>
 2. A Single GNN Layer
@@ -135,7 +138,7 @@ Three Collective Classification Models:
 4. Graph Manipulation in GNN
 (Prof said byebye again 😭 Ooooops he discussed this in Lecture 8 😆)
 
-### Lecture 8: GNN Augmentation and Training
+## Lecture 8: GNN Augmentation and Training
 1. Graph Augmentation of GNNs
 * Graph Feature augmentation
 > * The input graph lacks features --> feature augmentation
@@ -165,3 +168,19 @@ Three Collective Classification Models:
 > * <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNevaluation1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNevaluation2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNevaluation3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNevaluation4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNevaluation5.png" width="400"/>
 * GNN Training Pipeline (5): How do we split our dataset into train / validation / test set?
 > * <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNsplit6.png" width="400"/>
+
+## Lecture 9: How Expressive are GNNs?
+1. GNN examples
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress2.png" width="400"/>
+2. GNN Computation Graphs
+* Most expressive GNN should map subtrees to the node embeddings injectively.
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress5.png" width="400"/>
+3. Designing the most powerful GNN
+* Motivation: 
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress8.png" width="400"/>
+* GIN (Graph Isomophysm Network)
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress9.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress13.png" width="400"/>
+* GIN and WL Graph Kernel (colore refinement algorithm in Lec 2)
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress14.png" width="400"/>
+* Improving...
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/GNNexpress15.png" width="400"/>
