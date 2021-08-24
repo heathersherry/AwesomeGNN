@@ -1,8 +1,9 @@
 # GNN Readings
 
-### Tutorials and Lectures
+## Tutorials and Lectures
 1. Stanford CS224W: Machine Learning with Graphs [[Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
 
+## Papers
 ### GNN Efficiency
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
 2. GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
@@ -39,6 +40,6 @@ Related reading:
 5. Multi-Modal Transportation Recommendation with Unified Route Representation Learning (VLDB 2021)
 6. ICS-GNN: Lightweight Interactive Community Search via Graph Neural Network (VLDB 2021)
 
-# Other Related Reading
+## Other Related Reading
 ## Embedding
 1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
