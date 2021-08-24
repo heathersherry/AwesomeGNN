@@ -1,7 +1,7 @@
 # GNN Readings
 
 ## Tutorials and Lectures
-1. Stanford CS224W: Machine Learning with Graphs [[Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
+1. Stanford CS224W: Machine Learning with Graphs [[Course Website](http://web.stanford.edu/class/cs224w/)] [[My Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
 
 ## Papers
 ### GNN Efficiency
@@ -18,6 +18,9 @@ Importance Sampling
 2. LADIES
 3. AS-GCN
 4. GCN-BS
+
+#### Scalability
+1. Scaling Up Graph Neural Networks Via Graph Coarsening (KDD 2021)
 
 ### HGNN
 1. Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
