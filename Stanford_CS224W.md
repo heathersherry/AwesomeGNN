@@ -205,3 +205,23 @@ Three Collective Classification Models:
 * ComplEx <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGE7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGE8.png" width="400"/>
 * Summary <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEsummary1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEsummary2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEsummary3.png" width="400"/> 
 
+## Lecture 11: Reasoning in Knowledge Graphs
+1. Answering Predictive Queries in KGs
+* KG queries
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning3.png" width="400"/>
+* Traversing KG to answer the queries <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning4.png" width="400"/>
+> Not a good solution... <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning5.png" width="400"/>
+> Predictive Queries (the middle node could be arbitrary) <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning7.png" width="400"/>
+* Path queries
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA2.png" width="400"/>
+* Conjunctive queries
+> * Cannot use TransE. Reason: <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA4.png" width="400"/>
+
+2. Query2Box: Reasoning Over KGs Using Box Embedding
+* Box Embedding Definition: 
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box8.png" width="400"/>
+* Embedding AND-OR Queries
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box13.png" 
+* Training
+> * Predefined templates
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box16.png" width="400"/>
