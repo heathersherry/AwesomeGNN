@@ -221,7 +221,7 @@ Three Collective Classification Models:
 * Box Embedding Definition: 
 > <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box8.png" width="400"/>
 * Embedding AND-OR Queries
-> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box13.png" 
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box13.png" width="400"/>
 * Training
 > * Predefined templates
 > * <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box16.png" width="400"/>
