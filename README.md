@@ -6,11 +6,11 @@
 ## Papers
 
 ### Classical Models
-1. GCN
-2. GraghSAGE
-3. GAT
-4. GIN
-5. RGCN
+1. `GCN`
+2. `GraghSAGE`
+3. `GAT`
+4. `GIN`
+5. `RGCN`
 
 ### GNN Efficiency
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
@@ -22,10 +22,10 @@ Random Sampling
 1. GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
 
 Importance Sampling
-1. Fast-GCN
-2. LADIES
-3. AS-GCN
-4. GCN-BS
+1. `Fast-GCN`
+2. `LADIES`
+3. `AS-GCN`
+4. `GCN-BS`
 
 #### Scalability
 1. Scaling Up Graph Neural Networks Via Graph Coarsening (KDD 2021)
