@@ -208,10 +208,10 @@ Three Collective Classification Models:
 ## Lecture 11: Reasoning in Knowledge Graphs
 1. Answering Predictive Queries in KGs
 * KG queries
-> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning3.png" width="400"/>
-* Traversing KG to answer the queries <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning4.png" width="400"/>
-> Not a good solution... <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning5.png" width="400"/>
-> Predictive Queries (the middle node could be arbitrary) <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGEreasoning7.png" width="400"/>
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning3.png" width="400"/>
+* Traversing KG to answer the queries <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning4.png" width="400"/>
+> Not a good solution... <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning5.png" width="400"/>
+> Predictive Queries (the middle node could be arbitrary) <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGreasoning7.png" width="400"/>
 * Path queries
 > <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/KGQA2.png" width="400"/>
 * Conjunctive queries
