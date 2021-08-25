@@ -4,6 +4,14 @@
 1. Stanford CS224W: Machine Learning with Graphs [[Course Website](http://web.stanford.edu/class/cs224w/)] [[My Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
 
 ## Papers
+
+### Classical Models
+1. GCN
+2. GraghSAGE
+3. GAT
+4. GIN
+5. RGCN
+
 ### GNN Efficiency
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
 2. GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
