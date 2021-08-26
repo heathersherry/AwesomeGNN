@@ -225,3 +225,27 @@ Three Collective Classification Models:
 * Training
 > * Predefined templates
 > * <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/Box16.png" width="400"/>
+
+## Lecture 12: Identifying and Counting Motifs in Networks
+1. Subgraphs and Motifs
+* Defining Subgraphs and Motifs
+> * Subgraph Definition <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph2.png" width="400"/>
+> * Graph Isomorphism <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph3.png" width="400"/>
+> * Subgraph Isomorphism <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph4.png" width="400"/>
+> * Network Motifs <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph5.png" width="400"/>
+* Determining Motif Significance
+> * Subgraph Frequency <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph7.png" width="400"/>
+> * Motif Significance (Key idea): Subgraphs that occur in a real network much more often than in a random network have functional significance.
+> * Random Graphs: <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph8.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph9.png" width="400"/>
+> * Detecting Motifs: <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph11.png" width="400"/>
+
+2. Neural Subgraph Representations
+* Subgraph Representation
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph13.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph14.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph16.png" width="400"/> 
+* We design loss functions based on the order constraint. Order constraint specifies the ideal order embedding property that reflects subgraph relationships
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph17.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph18.png" width="400"/>
+* Training
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph19.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph20.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph21.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph22.png" width="400"/>
+3. Mining Frequent Subgraphs
+* SPMiner Motivation <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph23.png" width="400"/>
+* Overview: <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph24.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph25.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph26.png" width="400"/>
