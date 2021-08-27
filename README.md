@@ -56,3 +56,6 @@ Related reading:
 ## Other Related Reading
 ## Embedding
 1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
+
+## Homepages of Talented People
+1. Rex Ying [[Website](https://cs.stanford.edu/people/rexy/index.html)]
