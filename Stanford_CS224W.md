@@ -249,3 +249,22 @@ Three Collective Classification Models:
 3. Mining Frequent Subgraphs
 * SPMiner Motivation <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph23.png" width="400"/>
 * Overview: <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph24.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph25.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/subgraph26.png" width="400"/>
+
+
+## Lecture 13: Community Detection in Networks
+1. Network Communities
+* Overview 
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community1.png" width="400"/>
+* Modularity 
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community4.png" width="400"/>
+2. Louvain Algorithm: A greedy algorihtm for community detection
+* Overview
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community6.png" width="400"/>
+* Phase 1
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community8.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community9.png" width="400"/>
+* Phase 2
+> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community10.png" width="400"/>
+3. BigCALM: Detecting Overlapped Communities
+* Overview <img src="https://github.com/heathersherry/GNN/blob/main/figures/community11.png" width="400"/>
+* Step 1 <img src="https://github.com/heathersherry/GNN/blob/main/figures/community12.png" width="400"/>
+* Step 2 <img src="https://github.com/heathersherry/GNN/blob/main/figures/community13.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community14.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community16.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community17.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community18.png" width="400"/> 
