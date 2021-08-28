@@ -6,7 +6,7 @@
 ## Papers
 
 ### Classical Models
-1. `GCN`
+1. `GCN` [[Notes from the Author](http://tkipf.github.io/graph-convolutional-networks/)]
 2. `GraghSAGE`
 3. `GAT`
 4. `GIN`
