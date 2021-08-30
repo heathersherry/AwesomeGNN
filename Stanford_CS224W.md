@@ -268,3 +268,40 @@ Three Collective Classification Models:
 * Overview <img src="https://github.com/heathersherry/GNN/blob/main/figures/community11.png" width="400"/>
 * Step 1 <img src="https://github.com/heathersherry/GNN/blob/main/figures/community12.png" width="400"/>
 * Step 2 <img src="https://github.com/heathersherry/GNN/blob/main/figures/community13.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community14.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community16.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community17.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/community18.png" width="400"/> 
+
+## Lecture 14: Generative Models for Graphs
+1. Properties of real-world graphs
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/model1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model4.png" width="400"/>
+2. Traditional graph generative models
+* Erdös-Renyi Random Graphs
+> Basic Idea: * <img src="https://github.com/heathersherry/GNN/blob/main/figures/model5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model8.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model9.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model12.png" width="400"/>
+> * Insightful conclusions from Erdös-Renyi Random Graphs: <img src="https://github.com/heathersherry/GNN/blob/main/figures/model13.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model14.png" width="400"/>
+* The Small World Model
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/model15.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model16.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model17.png" width="400"/>
+* Kronecker Graph Model
+> * How can we think of network structure recursively? Intuition: Self-similarity
+> * Simple Kronecker Graph Model: <img src="https://github.com/heathersherry/GNN/blob/main/figures/model18.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model19.png" width="400"/>
+> * Stochastic Kronecker Graph Model: <img src="https://github.com/heathersherry/GNN/blob/main/figures/model20.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model21.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model22.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/model23.png" width="400"/>
+3. Deep graph generative models (Next Lecture)
+
+## Lecture 15: Deep Generative Models for Graphs
+1. Machine Learning for Graph Generation
+* Realistic graph generation: Generate graphs that are similar to a given set of graphs
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation2.png" width="400"/>
+2. GraphRNN: Realistic graph generation
+* Pipeline:
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation4.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation7.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation8.png" width="400"/> 
+* Summary:
+> * Add a new node: We run Node RNN for a step, and use it output to initialize Edge RNN
+> * Add new edges for the new node: We run Edge RNN to predict if the new node will connect to each of the previous node
+> * Add another new node: We use the last hidden state of Edge RNN to run Node RNN for another step
+> * Stop graph generation: If Edge RNN outputs EOS at step 1, we know no edges are connected to the new node. We stop the graph generation.
+* Tracibility:
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation9.png" width="400"/> 
+* Evaluation of two graphs:
+> * Visual similarity
+> * Graph statistics similarity: <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation11.png" width="400"/> 
+3. Applications of Deep Graph Generation Models
+* Goal: <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation12.png" width="400"/> 
+* Drug Discovery
+> * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation13.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation14.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation16.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation15.png" width="400"/> 
