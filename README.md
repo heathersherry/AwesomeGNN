@@ -36,8 +36,9 @@ Importance Sampling
 
 
 ### Explanability
-Surveys:
+Surveys, Summary and Tutorials:
 1. Explainability in Graph Neural Networks: A Taxonomic Survey [[Paper](https://arxiv.org/pdf/2012.15445.pdf)] [[Notes](https://zhuanlan.zhihu.com/p/359533369)]
+2. XGraph (Benchmark) [[Github](https://github.com/divelab/DIG/tree/main/dig/xgraph)]
 
 General Papers:
 1. `GNNExplainer` GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
