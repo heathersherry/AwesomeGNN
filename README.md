@@ -12,14 +12,17 @@
 4. `GIN`
 5. `RGCN`
 
-### GNN Efficiency
+### GNN Efficiency and Scalability
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
-2. GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
+2. `GraphSAINT` GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
 3. Performance Adaptive Sampling Strategy Towards Fast and Accurate Graph Neural Networks (KDD 2021) [[Video](https://www.youtube.com/watch?v=uRxF-xLo60o)]
+4. Scaling Up Graph Neural Networks Via Graph Coarsening (KDD 2021)
+5. `SimplifiedGCN`
+6. `ClusterGCN`
 
 #### Sampling Methods
 Random Sampling
-1. GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
+1. `GraphSAGE` GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
 
 Importance Sampling
 1. `Fast-GCN`
@@ -27,19 +30,17 @@ Importance Sampling
 3. `AS-GCN`
 4. `GCN-BS`
 
-#### Scalability
-1. Scaling Up Graph Neural Networks Via Graph Coarsening (KDD 2021)
 
 ### HGNN
-1. Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
-> * simpleHGN 
+1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
+
 
 ### Explanability
 Surveys:
 1. Explainability in Graph Neural Networks: A Taxonomic Survey [[Paper](https://arxiv.org/pdf/2012.15445.pdf)] [[Notes](https://zhuanlan.zhihu.com/p/359533369)]
 
 General Papers:
-1. GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
+1. `GNNExplainer` GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
 2. On Explainability of Graph Neural Networks via Subgraph Explorations [[Paper](https://arxiv.org/pdf/2102.05152.pdf)] 🌟
 > * Shapley value --> taxi sharing
 3. `PGExplainer` Parameterized Explainer for Graph Neural Network (NeurIPS 2020)
