@@ -305,3 +305,25 @@ Three Collective Classification Models:
 * Goal: <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation12.png" width="400"/> 
 * Drug Discovery
 > * <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation13.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation14.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation16.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/generation15.png" width="400"/> 
+
+## Lecture 16: Advanced Topics in GNNs
+1. Limitations of GNN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit3.png" width="400"/>
+* A naïve solution: One-hot encoding, but not scalable (Need O(N) feature dimensions) and not inductive (cannot generalize to new nodes/graphs)
+2. Position-Aware GNN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit4.png" width="400"/> 
+* The number of nodes in the sets might exponentially decrease
+3. Identity-Aware GNN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit5.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit6.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit7.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit8.png" width="400"/> 
+4. Robustness of GNN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit9.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit10.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit11.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit12.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit13.png" width="400"/>  <img src="https://github.com/heathersherry/GNN/blob/main/figures/limit14.png" width="400"/> 
+
+## Lecture 17: Scaling Up GNN to Large Graphs
+1. Motivation
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability1.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability2.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability3.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability4.png" width="400"/>
+2. GraphSAGE: Neighbourhood Sampling
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability5.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability6.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability7.png" width="400"/>
+3. Cluster-GCN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability8.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability9.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability10.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability11.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability12.png" width="400"/> 
+4. Simplified GCN
+* <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability13.png" width="400"/> <img src="https://github.com/heathersherry/GNN/blob/main/figures/scalability14.png" width="400"/> 
