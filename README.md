@@ -1,4 +1,3 @@
-# GNN Readings
 
 ## Tutorials and Lectures
 1. Stanford CS224W: Machine Learning with Graphs [[Course Website](http://web.stanford.edu/class/cs224w/)] [[My Notes](https://github.com/heathersherry/GNN/blob/main/Stanford_CS224W.md)]
