@@ -27,6 +27,7 @@
 4. Scaling Up Graph Neural Networks Via Graph Coarsening (KDD 2021)
 5. `SimplifiedGCN`
 6. `ClusterGCN`
+7. `GAMLP` Graph Attention Multi-Layer Perceptron [[Code](https://github.com/PKU-DAIR/GAMLP)] [[Notes](https://mp.weixin.qq.com/s/tGss6m22xABWqhJPl4P9aw)]
 
 #### Sampling Methods
 Random Sampling
@@ -47,6 +48,8 @@ Importance Sampling
 Surveys, Summary and Tutorials:
 1. Explainability in Graph Neural Networks: A Taxonomic Survey [[Paper](https://arxiv.org/pdf/2012.15445.pdf)] [[Notes](https://zhuanlan.zhihu.com/p/359533369)]
 2. XGraph (Benchmark) [[Github](https://github.com/divelab/DIG/tree/main/dig/xgraph)]
+3. Counterfactual Explanations in Explainable AI: A Tutorial (KDD 2021) [[Website](https://sites.google.com/view/kdd-2021-counterfactual)]
+4. 
 
 General Papers:
 1. `GNNExplainer` GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
@@ -71,8 +74,10 @@ Related reading:
 6. ICS-GNN: Lightweight Interactive Community Search via Graph Neural Network (VLDB 2021)
 
 # Other Related Reading
-## Embedding
+
 1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
+2. Representation Learning on Graphs with Jumping Knowledge Networks [[Paper](http://proceedings.mlr.press/v80/xu18c/xu18c.pdf)]
+3. Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems (TKDE 2021)
 
 ## Homepages of Talented People
 1. Rex Ying [[Website](https://cs.stanford.edu/people/rexy/index.html)]
