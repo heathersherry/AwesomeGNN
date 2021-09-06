@@ -4,13 +4,13 @@
 > * My Notes: [[1-5](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_1-5.md)] [[6-8](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_6-8.md)] [[9-11](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_9-11.md)] [[12-17](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_12-17.md)]
 
 ## Papers
-* __Classical Models__ [[Link]()]
-* __GNN Efficiency and Scalability__ [[Link]()]
-* __HGNN__ [[Link]()]
-* __Explanability__ [[Link]()]
-* __Spatial Temporal GNN__ [[Link]()]
-* __GNN Applications__ [[Link]()]
-* __GNN in Database Community__ [[Link]()]
+* __Classical Models__ [[Link](https://github.com/heathersherry/GNN/blob/main/README.md#classical-models)]
+* __GNN Efficiency and Scalability__ [[Link](https://github.com/heathersherry/GNN#gnn-efficiency-and-scalability)]
+* __HGNN__ [[Link](https://github.com/heathersherry/GNN#hgnn)]
+* __GNN Explanability__ [[Link](https://github.com/heathersherry/GNN#gnn-explanability)]
+* __Spatial Temporal GNN__ [[Link](https://github.com/heathersherry/GNN#spatial-temporal-gnn)]
+* __GNN Applications__ [[Link](https://github.com/heathersherry/GNN#gnn-applications)]
+* __GNN in Database Community__ [[Link](https://github.com/heathersherry/GNN#gnn-in-database-community)]
 
 
 ### Classical Models
@@ -43,7 +43,7 @@ Importance Sampling
 1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
 
 
-### Explanability
+### GNN Explanability
 Surveys, Summary and Tutorials:
 1. Explainability in Graph Neural Networks: A Taxonomic Survey [[Paper](https://arxiv.org/pdf/2012.15445.pdf)] [[Notes](https://zhuanlan.zhihu.com/p/359533369)]
 2. XGraph (Benchmark) [[Github](https://github.com/divelab/DIG/tree/main/dig/xgraph)]
@@ -59,6 +59,8 @@ Related reading:
 2. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
 
 ### Spatial Temporal GNN
+
+### GNN Applications
 
 ### GNN in Database Community
 1. Efficient Streaming Subgraph Isomorphism with Graph Neural Networks (VLDB 2021) [[Paper](http://vldb.org/pvldb/vol14/p730-duong.pdf)]
