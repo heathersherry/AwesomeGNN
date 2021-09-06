@@ -4,13 +4,13 @@
 > * My Notes: [[1-5](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_1-5.md)] [[6-8](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_6-8.md)] [[9-11](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_9-11.md)] [[12-17](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_12-17.md)]
 
 ## Papers
-__* Classical Models__ [[Link]()]
-__* GNN Efficiency and Scalability__ [[Link]()]
-__* HGNN__ [[Link]()]
-__* Explanability__ [[Link]()]
-__* Spatial Temporal GNN__ [[Link]()]
-__* GNN Applications__ [[Link]()]
-__* GNN in Database Community__ [[Link]()]
+* __Classical Models__ [[Link]()]
+* __GNN Efficiency and Scalability__ [[Link]()]
+* __HGNN__ [[Link]()]
+* __Explanability__ [[Link]()]
+* __Spatial Temporal GNN__ [[Link]()]
+* __GNN Applications__ [[Link]()]
+* __GNN in Database Community__ [[Link]()]
 
 
 ### Classical Models
