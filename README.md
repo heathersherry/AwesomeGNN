@@ -3,7 +3,7 @@
 1. Stanford CS224W: Machine Learning with Graphs [[Course Website](http://web.stanford.edu/class/cs224w/)] [[Youtube](https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)]
 > * My Notes: [[1-5](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_1-5.md)] [[6-8](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_6-8.md)] [[9-11](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_9-11.md)] [[12-17](https://github.com/heathersherry/GNN/blob/main/CS224W/Stanford_CS224W_12-17.md)]
 
-## Papers
+## Papers (Outline)
 * __Classical Models__ [[Link](https://github.com/heathersherry/GNN/blob/main/README.md#classical-models)]
 * __GNN Efficiency and Scalability__ [[Link](https://github.com/heathersherry/GNN#gnn-efficiency-and-scalability)]
 * __HGNN__ [[Link](https://github.com/heathersherry/GNN#hgnn)]
@@ -13,14 +13,14 @@
 * __GNN in Database Community__ [[Link](https://github.com/heathersherry/GNN#gnn-in-database-community)]
 
 
-### Classical Models
+## Classical Models
 1. `GCN` [[Notes from the Author](http://tkipf.github.io/graph-convolutional-networks/)]
 2. `GraghSAGE`
 3. `GAT`
 4. `GIN`
 5. `RGCN`
 
-### GNN Efficiency and Scalability
+## GNN Efficiency and Scalability
 1. Adaptive Sampling Towards Fast Graph Representation Learning (NeurIPS 2018) [[Paper](https://papers.nips.cc/paper/2018/file/01eee509ee2f68dc6014898c309e86bf-Paper.pdf)]
 2. `GraphSAINT` GraphSAINT: Graph Sampling Based Inductive Learning Method (ICLR 2020) [[Paper](https://arxiv.org/pdf/1907.04931.pdf)] [[Code](https://github.com/GraphSAINT/GraphSAINT)]
 3. Performance Adaptive Sampling Strategy Towards Fast and Accurate Graph Neural Networks (KDD 2021) [[Video](https://www.youtube.com/watch?v=uRxF-xLo60o)]
@@ -29,7 +29,7 @@
 6. `ClusterGCN`
 7. `GAMLP` Graph Attention Multi-Layer Perceptron [[Code](https://github.com/PKU-DAIR/GAMLP)] [[Notes](https://mp.weixin.qq.com/s/tGss6m22xABWqhJPl4P9aw)]
 
-#### Sampling Methods
+### Sampling Methods
 Random Sampling
 1. `GraphSAGE` GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
 
@@ -40,11 +40,11 @@ Importance Sampling
 4. `GCN-BS`
 
 
-### HGNN
+## HGNN
 1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
 
 
-### GNN Explanability
+## GNN Explanability
 Surveys, Summary and Tutorials:
 1. Explainability in Graph Neural Networks: A Taxonomic Survey [[Paper](https://arxiv.org/pdf/2012.15445.pdf)] [[Notes](https://zhuanlan.zhihu.com/p/359533369)]
 2. XGraph (Benchmark) [[Github](https://github.com/divelab/DIG/tree/main/dig/xgraph)]
@@ -61,11 +61,11 @@ Related reading:
 1. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
 2. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
 
-### Spatial Temporal GNN
+## Spatial Temporal GNN
 
-### GNN Applications
+## GNN Applications
 
-### GNN in Database Community
+## GNN in Database Community
 1. Efficient Streaming Subgraph Isomorphism with Graph Neural Networks (VLDB 2021) [[Paper](http://vldb.org/pvldb/vol14/p730-duong.pdf)]
 2. Accelerating Large Scale Real-Time GNN Inference using Channel Pruning (VLDB 2021)
 3. Grain: Improving Data Efficiency of Graph Neural Networks via Diversified Influence Maximization (VLDB 2021)
