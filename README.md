@@ -43,6 +43,7 @@ Importance Sampling
 ## HGNN
 1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
 2. `OpenHGNN`: An open-source toolkit for Heterogeneous Graph Neural Network(OpenHGNN) based on DGL [[GitHub](https://github.com/BUPT-GAMMA/OpenHGNN)] [[Notes](https://mp.weixin.qq.com/s/hz7vD5giWIs-eD9cE7H96A)]
+3. `HGT(Heterogeneous Graph Transformer)`: Heterogeneous Graph Transformer (WWW 2020) [[GitHub](https://github.com/acbull/pyHGT)]
 
 ## GNN Explanability
 Surveys, Summary and Tutorials:
