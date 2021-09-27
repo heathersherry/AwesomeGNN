@@ -52,6 +52,7 @@ Surveys, Summary and Tutorials:
 2. XGraph (Benchmark) [[Github](https://github.com/divelab/DIG/tree/main/dig/xgraph)]
 3. Counterfactual Explanations in Explainable AI: A Tutorial (KDD 2021) [[Website](https://sites.google.com/view/kdd-2021-counterfactual)]
 4. A Survey of Data-driven and Knowledge-aware eXplainable AI (TKDE 2021) 
+5. Theoretic Foundation, Criticism, and Application Trend of Explainable AI (ICML 2021 workshop) [[Website](https://icml2021-xai.github.io/)]
 
 General Papers:
 1. `GNNExplainer` GNNExplainer: Generating Explanations for Graph Neural Networks (NeurIPS 2019)
