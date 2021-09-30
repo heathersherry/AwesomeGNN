@@ -76,7 +76,7 @@ Related reading:
 5. Multi-Modal Transportation Recommendation with Unified Route Representation Learning (VLDB 2021)
 6. ICS-GNN: Lightweight Interactive Community Search via Graph Neural Network (VLDB 2021)
 
-# Other Related Reading
+## Supporting Techniques, Surveys, Tutorials and Lectures
 
 1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
 2. Representation Learning on Graphs with Jumping Knowledge Networks [[Paper](http://proceedings.mlr.press/v80/xu18c/xu18c.pdf)]
