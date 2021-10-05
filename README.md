@@ -59,6 +59,7 @@ General Papers:
 2. On Explainability of Graph Neural Networks via Subgraph Explorations [[Paper](https://arxiv.org/pdf/2102.05152.pdf)] 🌟
 > * Shapley value --> taxi sharing
 3. `PGExplainer` Parameterized Explainer for Graph Neural Network (NeurIPS 2020) [[Paper](https://github.com/flyingdoog/PGExplainer)]
+4. `MATE`: A Meta-Learning Approach for Training Explainable Graph Neural Networks (2021) [[GitHub](https://github.com/ispamm/MATE)]
 
 Related reading:
 1. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
