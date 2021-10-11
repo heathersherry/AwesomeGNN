@@ -60,6 +60,8 @@ General Papers:
 > * Shapley value --> taxi sharing
 3. `PGExplainer` Parameterized Explainer for Graph Neural Network (NeurIPS 2020) [[Paper](https://github.com/flyingdoog/PGExplainer)]
 4. `MATE` A Meta-Learning Approach for Training Explainable Graph Neural Networks (2021) [[GitHub](https://github.com/ispamm/MATE)]
+5. When Comparing to Ground Truth is Wrong: On Evaluating GNN Explanation Methods (KDD 2021) [[Paper](https://dl-acm-org.lib.ezproxy.ust.hk/doi/10.1145/3447548.3467283)]
+> * Three novel benchmarks: (i) pattern detection, (ii) community detec- tion, and (iii) handling negative evidence and gradient saturation.
 
 Related reading:
 1. ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction [[Paper](https://arxiv.org/pdf/2105.10446.pdf)] [[Some discussion](https://mp.weixin.qq.com/s/sZjn5Q8IBu6JXziTBJVLTg)]
