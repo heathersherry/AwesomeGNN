@@ -40,6 +40,8 @@ Importance Sampling
 3. `AS-GCN`
 4. `GCN-BS`
 
+### Distributed Training
+1. PyTorch PIPELINE PARALLELISM [[Official Tutorial](https://pytorch.org/docs/stable/pipeline.html#torch.distributed.pipeline.sync.Pipe)]
 
 ## HGNN
 1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
