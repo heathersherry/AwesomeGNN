@@ -42,6 +42,7 @@ Importance Sampling
 
 ### Distributed Training
 1. PyTorch PIPELINE PARALLELISM [[Official Tutorial](https://pytorch.org/docs/stable/pipeline.html#torch.distributed.pipeline.sync.Pipe)]
+2. PyTorch SINGLE-MACHINE MODEL PARALLEL BEST PRACTICES [[Official Tutorial](https://pytorch.org/tutorials/intermediate/model_parallel_tutorial.html)] successful!!
 
 ## HGNN
 1. `simpleHGN` Are we really making much progress? Revisiting, benchmarking, and refining heterogeneous graph neural networks (KDD 2021) [[Paper](https://keg.cs.tsinghua.edu.cn/jietang/publications/KDD21-Lv-et-al-HeterGNN.pdf)] [[Code and data](https://github.com/THUDM/HGB)]
