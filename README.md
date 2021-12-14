@@ -71,6 +71,7 @@ Related reading:
 2. Evaluating XAI: A comparison of rule-based and example-based explanations [[Paper](https://www.sciencedirect.com/science/article/pii/S0004370220301533)]
 
 ## Spatial Temporal GNN
+1. SDG: A Simplified and Dynamic Graph Neural Network (SIGIR 2021) [[Paper](https://dongqifu.github.io/publications/SDG.pdf)]
 
 ## GNN Applications
 
