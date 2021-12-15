@@ -39,3 +39,20 @@
 > * 对输入数据做线性变换：y=Ax+b. 注意线性方程中的权重W（形状（out_features，in_features））和偏差b（形状（out_features））是随机初始化的
 17. torch.nn.functional.embedding [[Official](https://pytorch.org/docs/stable/generated/torch.nn.functional.embedding.html)]
 > * A simple lookup table that looks up embeddings in a fixed dictionary and size.
+18. torch.nn.LSTM
+> * https://blog.csdn.net/github_31101389/article/details/107093867
+> * Good exmample: https://blog.csdn.net/m0_37586991/article/details/88561746
+19. torch.squeeze(input, dim=None, *, out=None) → Tensor [[Official](https://pytorch.org/docs/stable/generated/torch.squeeze.html)]
+> * Returns a tensor with all the dimensions of input of size 1 removed 
+
+20. 前向传播算法(Forward propagation)与反向传播算法(Back propagation) [[Good example about 借钱还款！]（https://blog.csdn.net/bitcarmanlee/article/details/78819025）]
+21. PyTorch Loss function [[Official](http://pytorch.org/docs/nn.html#loss-functions)]
+
+22. 多任务学习中loss多次backward和loss加和后backward有区别吗？
+> * Discussion: https://www.zhihu.com/question/398425328
+23. torch.optim.lr_scheduler：调整学习率
+> * https://blog.csdn.net/qyhaill/article/details/103043637
+
+
+## Summary of Tutorials
+1. DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ [[Official](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)] [[中文版本](http://fancyerii.github.io/books/pytorch/)]
