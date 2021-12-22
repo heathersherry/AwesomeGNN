@@ -53,6 +53,8 @@
 23. torch.optim.lr_scheduler：调整学习率
 > * https://blog.csdn.net/qyhaill/article/details/103043637
 
+24. CUDA error 59: Device-side assert triggered
+> * https://towardsdatascience.com/cuda-error-device-side-assert-triggered-c6ae1c8fa4c3
 
 ## Summary of Tutorials
 1. DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ [[Official](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)] [[中文版本](http://fancyerii.github.io/books/pytorch/)]
