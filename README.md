@@ -75,6 +75,15 @@ Related reading:
 1. SDG: A Simplified and Dynamic Graph Neural Network (SIGIR 2021) [[Paper](https://dongqifu.github.io/publications/SDG.pdf)]
 
 ## GNN Applications
+### Document Comprehansion/QA tasks supported by RGCN/RGAT
+1. QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering (NAACL 2021) [[Paper](https://arxiv.org/pdf/2104.06378.pdf)] [[Code](https://github.com/michiyasunaga/qagnn)]
+2. Relational Graph Attention Networks (Submitted to ICLR 2019)[[Open Review](https://openreview.net/forum?id=Bklzkh0qFm)] [[Code (Tensorflow)](https://github.com/babylonhealth/rgat)]
+3. Relational-Graph-Attention-Network-for-Aspect-based-Sentiment-Analysis (ACL 2020) [[Paper](https://arxiv.org/pdf/2004.12362.pdf)] [[Code](https://github.com/shenwzh3/RGAT-ABSA)]
+4. Relation-aware Graph Attention Networks with Relational Position Encodings for Emotion Recognition in Conversations (EMNLP 2020) [[Paper](https://aclanthology.org/2020.emnlp-main.597)] [[Code](https://github.com/KomorebiLHX/Emotion-Recognition-in-Conversations)]
+5. RAGA: Relation-aware Graph Attention Networks for Global Entity Alignment (PAKDD 2021) [[Paper](https://arxiv.org/pdf/2103.00791.pdf)] [[Code](https://github.com/zhurboo/RAGA)]
+6. Relation-Aware Graph Attention Network for Visual Question Answering (ICCV 2019) [[Paper](https://arxiv.org/pdf/1903.12314.pdf)] [[Notes](https://blog.csdn.net/xiasli123/article/details/102937712)] [[Code](https://github.com/linjieli222/VQA_ReGAT)]
+7. r-GAT: Relational Graph Attention Network for Multi-Relational Graphs [[Paper](https://arxiv.org/pdf/2109.05922.pdf)]
+
 
 ## GNN in Database Community
 1. Efficient Streaming Subgraph Isomorphism with Graph Neural Networks (VLDB 2021) [[Paper](http://vldb.org/pvldb/vol14/p730-duong.pdf)]
