@@ -93,6 +93,16 @@ Related reading:
 5. Multi-Modal Transportation Recommendation with Unified Route Representation Learning (VLDB 2021)
 6. ICS-GNN: Lightweight Interactive Community Search via Graph Neural Network (VLDB 2021)
 
+## Tensors for Graphs
+1. Tensor Algebra and Tensor Analysis for Engineers (2015) [[Springer](https://link.springer.com/book/10.1007/978-3-319-16342-0)]
+2. Tensors: An abstraction for general data processing (VLDB 2021) [[Paper](http://vldb.org/pvldb/vol14/p1797-koutsoukos.pdf)] [[Github](https://github.com/microsoft/hummingbird)]
+> * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications.
+3. Dynamic Graph Convolutional Networks Using the Tensor M-Product (SDM 2019) [[Paper](https://arxiv.org/pdf/1910.07643)] [[Github](https://github.com/IBM/TM-GCN)]
+> * This work combines adjancency tensor and feature tensor.
+5. Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs (submitted to ICLR 2019, but rejected) [[Paper](https://openreview.net/forum?id=rylVTTVtvH)]
+6. Tensor Processing Primitives: A Programming Abstraction for Efficiency and Portability in Deep Learning & HPC Workloads (Arxiv 2021) [[Paper](https://arxiv.org/pdf/2104.05755.pdf)]
+7. FreeTensor: A Free-form DSL with Holistic Optimization for Irregular Tensor Programs (accpeted in PLDI 2022, no source yet)
+
 ## Supporting Techniques, Surveys, Tutorials and Lectures
 
 1. Graph Embedding Techniques, Applications, and Performance: A Survey [[Paper](https://arxiv.org/pdf/1705.02801.pdf)]
