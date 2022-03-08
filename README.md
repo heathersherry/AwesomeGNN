@@ -104,6 +104,7 @@ Related reading:
 6. Tensor Processing Primitives: A Programming Abstraction for Efficiency and Portability in Deep Learning & HPC Workloads (Arxiv 2021) [[Paper](https://arxiv.org/pdf/2104.05755.pdf)]
 7. FreeTensor: A Free-form DSL with Holistic Optimization for Irregular Tensor Programs (accpeted in PLDI 2022, no source yet)
 8. Graphs, Matrices, and the GraphBLAS: Seven Good Reasons (ICCS 2015)
+9. Exploiting tensor networks for efficient machine learning (PhD thesis) [[Link](https://hub.hku.hk/handle/10722/308618)]
 
 ## Supporting Techniques, Surveys, Tutorials and Lectures
 
