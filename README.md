@@ -84,6 +84,10 @@ Related reading:
 6. Relation-Aware Graph Attention Network for Visual Question Answering (ICCV 2019) [[Paper](https://arxiv.org/pdf/1903.12314.pdf)] [[Notes](https://blog.csdn.net/xiasli123/article/details/102937712)] [[Code](https://github.com/linjieli222/VQA_ReGAT)]
 7. r-GAT: Relational Graph Attention Network for Multi-Relational Graphs [[Paper](https://arxiv.org/pdf/2109.05922.pdf)]
 
+### GNN for Traffic
+1. DYNAMIC SPATIOTEMPORAL GRAPH CONVOLUTIONAL NEURAL NETWORKS FOR TRAFFIC DATA IMPUTATION WITH COMPLEX MISSING PATTERNS [[Paper](https://arxiv.org/pdf/2109.08357.pdf)]
+2. 
+
 
 ## GNN in Database Community
 1. Efficient Streaming Subgraph Isomorphism with Graph Neural Networks (VLDB 2021) [[Paper](http://vldb.org/pvldb/vol14/p730-duong.pdf)]
