@@ -34,6 +34,7 @@
 ### Sampling Methods
 Random Sampling
 1. `GraphSAGE` GraphSage: Inductive Representation Learning on Large Graphs (NeurIPS 2017) [[Paper](https://arxiv.org/pdf/1706.02216.pdf)]
+2. `GTTF` Graph traversal with tensor functionals: A meta-algorithm for scalable learning (ICLR 2021)
 
 Importance Sampling
 1. `Fast-GCN` FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling (ICLR 2018) [[Paper](https://arxiv.org/pdf/1801.10247.pdf)]
