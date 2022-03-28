@@ -29,6 +29,7 @@
 5. `SimplifiedGCN`
 6. `ClusterGCN`
 7. `GAMLP` Graph Attention Multi-Layer Perceptron [[Code](https://github.com/PKU-DAIR/GAMLP)] [[Notes](https://mp.weixin.qq.com/s/tGss6m22xABWqhJPl4P9aw)]
+8. EXACT: SCALABLE GRAPH NEURAL NETWORKS TRAINING VIA EXTREME ACTIVATION COMPRESSION (ICLR 2021) [[Paper](https://openreview.net/forum?id=vkaMaq95_rX)]
 
 ### Sampling Methods
 Random Sampling
